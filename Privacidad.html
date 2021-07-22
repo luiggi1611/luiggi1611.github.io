@@ -25,54 +25,27 @@
 
 <body>
 
-    <div class="limiter">
-        <div class="container-login100">
-            <div class="wrap-login100">
-                <div class="login100-pic js-tilt" data-tilt>
-                    <img src="images/1x/Logo 2.PNG" alt="IMG">
-                </div>
+    <main role="main" class="container">
 
-                <form name="loginform" class="login100-form validate-form" onSubmit="return validateForm();">
-                    <span class="login100-form-title">
-						Bienvenidos al portal de Advance Analytics del Banco de la Nación
-					
-					</span>
-
-                    <div class="wrap-input100 validate-input" data-validate="Se requiere un correo valido">
-                        <input class="input100" type="text" name="email" placeholder="Correo">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Se requiere contraseña">
-                        <input class="input100" type="password" name="pass" placeholder="Contraseña">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
-                    </div>
-
-                    <div class="container-login100-form-btn">
-                        <button class="login100-form-btn"> 
-							Ingresa
-						</button>
+        <div class="starter-template">
+            <h1>Acta de confidencialidad</h1>
+            <p class="lead">Política de Uso de Plataforma de Control de Aglomeraciones El Banco de la Nación, crea y pone a disposición la plataforma web de seguimiento a las aglomeraciones (“”Plataforma”) para el uso de los diferentes actores del sector público, entre
+                municipalidades y ministerios, que les permita optimizar la distribución de recursos para el control de aglomeraciones y consecuente control del contagio en el marco de la emergencia COVID-19. Al acceder, consultar o utilizar la Plataforma,
+                los Usuarios (“Vd.”, “usted”, “Usuario”, o “usuario”) acepta cumplir la política de uso establecidos en este documento. En caso de que usted no acepta quedar vinculado por la presente política de uso, no podrá acceder a, ni utilizar, la
+                Plataforma. El usuario con acceso a esta Plataforma debe formar parte de una institución pública y se comprometen a utilizar la Plataforma exclusivamente para las tareas relacionadas al control de aglomeraciones o estrategias sanitarias
+                asociadas a la lucha contra el COVID-19. La información que se muestra en la Plataforma o derivados de la misma, no pueden ser divulgada en medios de comunicación/prensa o al público en general. De forma excepcional, pueden publicarse
+                previo permiso y autorización del creador de la Plataforma. La Plataforma se mantendrá en funcionamiento hasta el término del estado de emergencia nacional, según lo estipulan las normas publicadas en el Diario El Peruano. La principales
+                limitaciones de la información se concentran en i) el retraso de la información desde el origen puede llegar a ser de 3 a 5 días y ii) los datos pierden precisión en zonas alejadas.
+                <br> acepta las condiciones</p>
 
 
-                    </div>
-
-
-                    <div class="text-center p-t-136">
-                        <a class="txt2" href="#">
-
-                        </a>
-                        </a>
-                    </div>
-                </form>
-            </div>
+            <a href="Caratula.html" class="btn btn-info" role="button">Aceptar clausula de privacidad</a>
         </div>
-    </div>
+
+    </main>
+    <!-- /.container -->
+
+
 
 
 
@@ -90,22 +63,6 @@
         $('.js-tilt').tilt({
             scale: 1.1
         })
-    </script>
-    <script>
-        function validateForm() {
-            var un = document.loginform.email.value;
-            var pw = document.loginform.pass.value;
-            var username = "Analytics@bn.com";
-            var password = "123";
-            if ((un == username) && (pw == password)) {
-                window.location = "Privacidad.html";
-                return false;
-            } else {
-
-                alert("Usuario/contraseña incorrecta")
-
-            }
-        }
     </script>
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
